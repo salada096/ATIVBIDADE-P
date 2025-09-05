@@ -1,4 +1,8 @@
+USE RESTAURANTES;
+
 SELECT * FROM CLIENTE;
+
+
 
 SELECT * FROM MARMITA WHERE preco = 15.00;
 
@@ -12,17 +16,17 @@ SELECT * FROM MARMITA WHERE preco >= 25.00;
 
 SELECT * FROM MARMITA WHERE preco <= 10.00;
 
-
-
-
-
 SELECT * FROM CLIENTE WHERE endereco = 'Centro';
 
 SELECT * FROM ENTREGADOR WHERE empresa_id = 1;
 
+
+
 SELECT * FROM MARMITA WHERE tamanho IN ('Pequena', 'Média', 'Grande');
 
 SELECT * FROM ENTREGADOR WHERE empresa_id NOT IN (2, 3, 5);
+
+
 
 SELECT * FROM ENTREGADOR WHERE celular IS NULL;
 
